@@ -22,12 +22,16 @@ p {
   background-size: contain;
   object-fit: fill;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .headerpic > p {
+    font-family: Helvetica, sans-serif;
 color: white;
   position: absolute;
-  font-size: 20px;
+  font-size: 35px;
   top: 15%;
   
 }

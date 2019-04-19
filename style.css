@@ -1,0 +1,22 @@
+h1,
+h2 {
+  font-family: helvetica;
+}
+
+.headerpicimg {
+  width: 100%;
+  height: 100%;
+}
+.headerpic {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: fill;
+  position: relative;
+}
+
+.headerpic > p {
+  position: absolute;
+  font-size: 20px;
+}

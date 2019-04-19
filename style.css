@@ -1,6 +1,14 @@
-h1,
-h2 {
+body{
+    background-color: #262626
+}
+
+h1,h2 {
   font-family: helvetica;
+  color: antiquewhite;
+}
+
+p {
+    color: #A6A6A6;
 }
 
 .headerpicimg {
@@ -17,6 +25,9 @@ h2 {
 }
 
 .headerpic > p {
+color: white;
   position: absolute;
   font-size: 20px;
+  top: 15%;
+  
 }
